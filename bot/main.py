@@ -23,4 +23,4 @@ async def clear(ctx, amount=3) :
     await ctx.channel.purge(limit=amount)
 
 
-zuda.run(token)
+zuda.run(TOKEN)
